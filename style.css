@@ -1,0 +1,165 @@
+/* 這裡是樣式設定，可以根據您的需求進行自定義 */
+/* 例如：設定標題樣式、導覽列樣式、段落樣式、列表樣式等 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-image: url('./images/pexels-philippe-donn-1169754.jpg');
+    background-size: cover;
+    z-index: 999;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+#myDiv {
+margin-top: 80px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+nav ul li .language-toggle {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  nav ul li .language-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  nav ul li .language-menu li {
+    margin: 5px 0;
+  }
+  
+  nav ul li .language-menu a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  nav ul li .language-menu a:hover {
+    text-decoration: underline;
+  }
+
+  #about-me {
+    position: relative;
+  }
+  #about-me {
+    overflow: hidden;
+  }
+  
+  #about-me .left {
+    float: left;
+    width: 80%;
+  }
+  
+  #about-me .right {
+    float: right;
+    width: 20%;
+  }
+  
+  #about-me img {
+    position: relative;
+    padding:10px;
+    top: 0;
+    right: 0;
+    width: 130px;
+    height: 130px;
+    object-fit:cover;
+    margin-left:20px;
+  }
+  section {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top:20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th:first-child, td:first-child {
+    border-left: none;
+  }
+  
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  
+  tr:first-child th, tr:last-child td {
+    border-top: none;
+  }
+  
+  tr:last-child td {
+    border-bottom: none;
+  }

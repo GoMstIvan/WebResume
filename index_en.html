@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Resume Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">Personal Information</a></li>
+                    <li><a href="#skills">Professional Skills</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#projects">Project Experience</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <select id="mySelect">
+                        <option value="default">Language</option>
+                        <option value="zh">繁體中文</option>
+                        <option value="en">English</option>
+                        <option value="jp">日本語</option>
+                    </select>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="myDiv">
+        <section id="about-me">
+            <h2>Personal Information</h2>
+            <div class="left">
+                <table>
+                    <thead></thead>
+                    <tbody>
+                      <tr>
+                        <td>Name:</td>
+                        <td>Yung-Sung Chen (陳泳菘)</td>
+                      </tr>
+                      <tr>
+                        <td>Residence:</td>
+                        <td>Taiwan - Pingtung City</td>
+                      </tr>
+                      <tr>
+                        <td>Education:</td>
+                        <td>National Chiayi University - Bachelor of Mechanical and Energy Engineering</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+              <div class="right">
+                <img src="images/headshot.png"/>
+              </div>
+        </section>
+        <section id="skills">
+            <h2>Professional Skills</h2>
+            <ul>
+                <li>Major: Machine Learning (Pytorch)</li>
+                <li>Minor: Robotics, Internet of Things, Microprocessors, Automatic Control</li>
+            </ul>
+            <h2>Programming Languages</h2>
+            <ul>
+                <li>Major: Python3、C/C++、JavaScript</li>
+                <li>Minor: C#、LabView、Matlab</li>
+            </ul>
+            <h2>Professional Certifications</h2>
+            <ul>
+                <li>TAIROA(Taiwan Intelligent Automation and Robotics Association) Level1</li>
+                <li>TQC+Certification: Python3、App Inventor</li>
+                <li>Microsoft Azure: AZ-900、AI-900、DP-900</li>
+            </ul>
+            <h2>Languages</h2>
+            <ul>
+                <li>English: TOEIC 655</li>
+                <li>Japanese: JLPT N2</li>
+            </ul>
+                
+        </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Footprintku Co., Ltd. - AI Software Engineer (2018.10~2022.02, over 3 years)</li>
+                <li>Vocational Training Bureau IoT Training Course (2018.07~2018.09)</li>
+                <li>Telecrane - Firmware Engineer (2018.01~2018.03)</li>
+                <li>Chien Tung Electronics Corp. - Electronic Engineer (2017.08~2017.11)</li>
+            </ul>
+            <h2>Teaching Experience</h2>
+            <ul>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Institution</th>
+                            <th>Topic</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>National Kaohsiung University of Science and Technology(NKUST)</td>
+                        <td>Text Detection - EAST Theory and Implementation</td>
+                        <td>2020.10</td>
+                      </tr>
+                      <tr>
+                        <td>National Pingtung University</td>
+                        <td>Introduction of AI</td>
+                        <td>2020.11</td>
+                      </tr>
+                      <tr>
+                        <td>Cheng Shiu University</td>
+                        <td>Text Detection - EAST Theory and Implementation<br>Object Detection - YOLOv3 Theory and Implementation</td>
+                        <td>2021.05、06</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </ul>
+            <h2>University Experience</h2>
+            <ul>
+                <li>Automatic Control Laboratory (2015.06~2017.06, 2 years)</li>
+                <li>Ministry of Science and Technology College Student Research Program 2016</li>
+            </ul>
+            
+        </section>
+        <section id="projects">
+            <h2>Project Experience</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Topic</th>
+                        <th>Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>AI Deployment</td>
+                    <td>Deployment</td>
+                    <td>Also deployable on servers, with Linux system operations</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">Image Processing</td>
+                    <td>OCR Optical Character Recognition</td>
+                    <td>Based on TCN and CRNN, copyright belongs to Footprintku</td>
+                  </tr>
+                  <tr>
+                    <td>Image scene segmentation for table analysis</td>
+                    <td>Based on Unet, copyright belongs to Footprintku</td>
+                  </tr>
+                  <tr>
+                    <td>English article text detection model<br>Chinese road text detection model</td>
+                    <td>Based on modified EAST, performs well on long text</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Natural Language Processing</td>
+                    <td>Text sentence vector to determine article type</td>
+                    <td>Based on CBOW text vector, GRU, classification network</td>
+                  </tr>
+                  <tr>
+                    <td>Spell Checker</td>
+                    <td>Based on corpus and string distance error detection to improve OCR accuracy</td>
+                  </tr>
+                  <tr>
+                    <td>AI package development</td>
+                    <td>Backward propagation model written in C++</td>
+                    <td>Requires knowledge of linear algebra, copyright belongs to Footprintku</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
+        <section id="publications">
+            <h2>Related Papers</h2>
+            <ul>
+                <li>Self-Attention and Temporal Convolution Network applied to Optical Character
+                    Recognition model design (2019.08)</li>
+                <li>Using Fourier Transform and Wavelet Transform to Calculate characteristic value of EEG Action Command and Classify by Backpropagation Neural Network (2017.06)</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: sointheuniverse0160@gmail.com</p>
+        </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
