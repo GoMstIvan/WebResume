@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "about": "個人情報",
+    "skills": "専門スキル",
+    "experience": "業界經驗",
+    "projects": "プロジェクト",
+    "publications": "関連論文",
+    "contact": "連絡先"
+  },
+  "about": {
+    "title": "個人情報",
+    "name_label": "氏名",
+    "name": "陳泳菘",
+    "residence_label": "居住地域",
+    "residence": "台灣 - 屏東市",
+    "education_label": "學歷",
+    "education": "国立嘉義大学 - 機械とエネルギー工学学科 学士"
+  },
+  "skills": {
+    "title": "専門スキル",
+    "programming": "プログラミング言語",
+    "certification": "専門資格",
+    "cert_items": [
+      "TAIROA(台灣知能自動化・ロボット協会) Level1",
+      "TQC+資格: Python3、App Inventor",
+      "Microsoft Azure: AZ-900、AI-900、DP-900",
+      "AIアプリプランナー - 中級"
+    ],
+    "foreign_lang": "外国語",
+    "major": "主要",
+    "minor": "次要",
+    "ml": "機械学習(Pytorch)",
+    "others": "ロボット工学、IoT、マイクロプロセッサ、自動コントロール",
+    "langs_major": "Python3、C/C++、JavaScript",
+    "langs_minor": "C#、LabView、Matlab",
+    "toeic": "英語: TOEIC 655",
+    "jlpt": "日本語: JLPT N2"
+  },
+  "experience": {
+    "title": "業界経験",
+    "teaching": "講師経験",
+    "university": "大學經驗",
+    "items": [
+      "現影安防 - AIフルスタックソフトウェアエンジニア (2023.05~現在)",
+      "Footprintku社 - AIソフトウェアエンジニア (2018.10~2022.02、3年以上)",
+      "職業訓練局IoT訓練コース (2018.07~2018.09)",
+      "特力快 - ファームウェアエンジニア (2018.01~2018.03)",
+      "千統電子 - 電子工学エンジニア (2017.08~2017.11)"
+    ],
+    "teaching_table": {
+      "headers": ["教育機関", "テーマ", "日時"],
+      "rows": [
+        ["高科大", "文字検出 - EAST理論と実作", "2020.10"],
+        ["屏東大學", "AI概論講演", "2020.11"],
+        ["正修科大", "文字検出 - EAST / 物物体検出 - YOLOv3", "2021.05、06"]
+      ]
+    },
+    "uni_items": [
+      "自動コントロール實驗室 (2015.06〜2017.06, 2年間)",
+      "科學技術省専門學生研究計畫2016"
+    ]
+  },
+  "projects": {
+    "title": "プロジェクト経歴",
+    "headers": ["領域", "主題", "特色"],
+    "rows": [
+      ["AI模型展開", "VertexAIを使用してDockerパッケージAIモデルをGCPに展開", "サーバ展開、Linux操作も可能"],
+      ["画像處理", "OCR光学文字認識", "TCNとCRNNに基づく、Footprintku著作権"],
+      ["画像處理", "テーブル解析に使用される画像シーン分割", "Unetに基づく、Footprintku著作權"],
+      ["画像處理", "英文/中国語の文字検出モデル", "EASTの改良、長いテキストに優れた性能"],
+      ["自然言語處理", "文章種類判別のためのテキスト文ベクトル", "CBOW、GRU、分類網絡"],
+      ["自然言語處理", "Spell Checker", "コーパスと文字列距離による誤り検出", "OCR精度向上"],
+      ["AI開發", "C++によるバックプロパゲーションモデル", "線形代数、Footprintku著作權"]
+    ]
+  },
+  "publications": {
+    "title": "関連論文",
+    "items": [
+      "Leveraging Deep Learning and Things for Dynamic Construction Site Risk Management (2025.04)",
+      "Self-Attention and Temporal Convolution Network applied to OCR (2019.08)",
+      "Using Fourier/Wavelet Transform for EEG Action Command Classification (2017.06)"
+    ]
+  },
+  "contact": {
+    "title": "連絡先"
+  }
+}

@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage-50: #f4f7f6;
+  --color-sage-100: #e9efee;
+  --color-sage-200: #d2dfdd;
+  --color-sage-300: #adc5c1;
+  --color-sage-400: #8ca9a3; /* 莫蘭迪綠主色 */
+  --color-sage-500: #6d8e87;
+  --color-sage-600: #54716b;
+  --color-sage-700: #435b56;
+  --color-sage-800: #364945;
+  --color-sage-900: #2e3d3a;
+  --color-sage-950: #192120;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-[#f2f4f3] text-slate-700 antialiased font-sans;
+  }
+}
+
+@layer components {
+  /* 旗標式標題 */
+  .flag-title {
+    @apply bg-sage-400 text-white px-4 py-1.5 text-sm font-bold inline-block mb-6 relative;
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+  }
+
+  .section-title-right {
+    @apply text-lg font-bold text-sage-600 mb-4 pb-1 border-b-2 border-sage-100 flex items-center gap-2;
+  }
+
+  .content-text {
+    @apply text-[13px] leading-relaxed text-slate-600;
+  }
+}
+
+/* 右上角斜紋裝飾 */
+.diagonal-stripes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--color-sage-400),
+    var(--color-sage-400) 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  opacity: 0.15;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* 列印 A4 最佳化 */
+@media print {
+  body { background: white; }
+  .no-print { display: none; }
+  .shadow-2xl { shadow: none; }
+  .my-10 { margin: 0; }
+}

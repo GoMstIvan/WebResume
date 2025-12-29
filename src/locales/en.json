@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "about": "Personal Info",
+    "skills": "Professional Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "publications": "Publications",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Personal Information",
+    "name_label": "Name",
+    "name": "Yung-Sung Chen (陳泳菘)",
+    "residence_label": "Residence",
+    "residence": "Taiwan - Pingtung City",
+    "education_label": "Education",
+    "education": "National Chiayi University - Bachelor of Mechanical and Energy Engineering"
+  },
+  "skills": {
+    "title": "Professional Skills",
+    "programming": "Programming Languages",
+    "certification": "Certifications",
+    "cert_items": [
+      "TAIROA(Taiwan Intelligent Automation and Robotics Association) Level1",
+      "TQC+Certification: Python3, App Inventor",
+      "Microsoft Azure: AZ-900, AI-900, DP-900",
+      "AI Application Planner - Intermediate"
+    ],
+    "foreign_lang": "Languages",
+    "major": "Major",
+    "minor": "Minor",
+    "ml": "Machine Learning (Pytorch)",
+    "others": "Robotics, IoT, Microprocessors, Automatic Control",
+    "langs_major": "Python3, C/C++, JavaScript",
+    "langs_minor": "C#, LabView, Matlab",
+    "toeic": "English: TOEIC 655",
+    "jlpt": "Japanese: JLPT N2"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "teaching": "Teaching Experience",
+    "university": "University Experience",
+    "items": [
+      "Vision Security - AI Full-stack Software Engineer (2023.05~Present)",
+      "Footprintku Co., Ltd. - AI Software Engineer (2018.10~2022.02, over 3 years)",
+      "Vocational Training Bureau IoT Training Course (2018.07~2018.09)",
+      "Telecrane - Firmware Engineer (2018.01~2018.03)",
+      "Chien Tung Electronics Corp. - Electronic Engineer (2017.08~2017.11)"
+    ],
+    "teaching_table": {
+      "headers": ["Institution", "Topic", "Date"],
+      "rows": [
+        ["NKUST", "Text Detection - EAST Theory and Implementation", "2020.10"],
+        ["National Pingtung University", "Introduction of AI", "2020.11"],
+        ["Cheng Shiu University", "Text Detection - EAST / Object Detection - YOLOv3", "2021.05, 06"]
+      ]
+    },
+    "uni_items": [
+      "Automatic Control Laboratory (2015.06~2017.06, 2 years)",
+      "Ministry of Science and Technology College Student Research Program 2016"
+    ]
+  },
+  "projects": {
+    "title": "Project Experience",
+    "headers": ["Field", "Topic", "Features"],
+    "rows": [
+      ["AI Deployment", "Deployment of AI models to GCP via VertexAI/Docker", "Server deployment, Linux operations"],
+      ["Image Processing", "OCR Optical Character Recognition", "Based on TCN and CRNN, Footprintku IP"],
+      ["Image Processing", "Image scene segmentation for table analysis", "Based on Unet, Footprintku IP"],
+      ["Image Processing", "English/Chinese Text Detection models", "Based on modified EAST, high performance on long text"],
+      ["Natural Language Processing", "Sentence vector for classification", "Based on CBOW, GRU, classification network"],
+      ["Natural Language Processing", "Spell Checker", "Based on corpus and string distance to improve OCR"],
+      ["AI package dev", "Backward propagation model in C++", "Linear algebra, Footprintku IP"]
+    ]
+  },
+  "publications": {
+    "title": "Related Papers",
+    "items": [
+      "Leveraging Deep Learning and Internet of Things for Dynamic Construction Site Risk Management (2025.04)",
+      "Self-Attention and Temporal Convolution Network applied to OCR (2019.08)",
+      "Using Fourier/Wavelet Transform for EEG Action Command Classification (2017.06)"
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  }
+}

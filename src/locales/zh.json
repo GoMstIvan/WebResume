@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "about": "個人資訊",
+    "skills": "專長技能",
+    "experience": "業界經驗",
+    "projects": "專案經歷",
+    "publications": "相關論文",
+    "contact": "聯絡方式"
+  },
+  "about": {
+    "title": "個人資訊",
+    "name_label": "姓名",
+    "name": "陳泳菘",
+    "residence_label": "居住地區",
+    "residence": "台灣 - 屏東市",
+    "education_label": "學歷",
+    "education": "國立嘉義大學 - 機械與能源工程學系 學士"
+  },
+  "skills": {
+    "title": "專長技能",
+    "programming": "程式語言",
+    "certification": "專業證照",
+    "cert_items": [
+      "TAIROA(台灣智慧自動化與機器人協會) Level1",
+      "TQC+證照: Python3、App Inventor",
+      "Microsoft Azure: AZ-900、AI-900、DP-900",
+      "AI應用規劃師-中級"
+    ],
+    "foreign_lang": "外語",
+    "major": "主要",
+    "minor": "次要",
+    "ml": "機器學習(Pytorch)",
+    "others": "機器人學、物聯網、微處理器、自動控制",
+    "langs_major": "Python3、C/C++、JavaScript",
+    "langs_minor": "C#、LabView、Matlab",
+    "toeic": "英語: TOEIC 655",
+    "jlpt": "日語: JLPT N2"
+  },
+  "experience": {
+    "title": "業界經驗",
+    "teaching": "講師經驗",
+    "university": "大學經驗",
+    "items": [
+      "現影安防 - AI全端軟體工程師 (2023.05~現在)",
+      "Footprintku公司 - AI軟體工程師 (2018.10~2022.02, 3年以上)",
+      "職訓局物聯網培訓課程 (2018.07~2018.09)",
+      "特力快 - 韌體工程師 (2018.01~2018.03)",
+      "千統電子 - 電子工程師 (2017.08~2017.11)"
+    ],
+    "teaching_table": {
+      "headers": ["教育單位", "主題", "時間"],
+      "rows": [
+        ["高科大", "文字偵測-EAST理論與實作", "2020.10"],
+        ["屏東大學", "AI概論講座", "2020.11"],
+        ["正修科大", "文字偵測-EAST理論與實作 / 物件偵測-YOLOv3理論與實作", "2021.05、06"]
+      ]
+    },
+    "uni_items": [
+      "自動控制實驗室 (2015.06~2017.06, 2年)",
+      "科技部大專生研究計畫2016"
+    ]
+  },
+  "projects": {
+    "title": "專案經歷",
+    "headers": ["領域", "主題", "特色"],
+    "rows": [
+      ["AI模型佈署", "以VertexAI佈署封包成Docker的AI模型於GCP", "亦可使用伺服器佈署方式、Linux系統操作"],
+      ["影像處理", "OCR光學字元辨識", "基於TCN與CRNN, 版權屬於Footprintku"],
+      ["影像處理", "圖像場景分割用於表格解析", "基於Unet, 版權屬於Footprintku"],
+      ["影像處理", "英文文章文字偵測模型 / 中文道路文字偵測模型", "基於EAST改造, 於長段文字表現良好"],
+      ["自然語言處理", "文字語句向量判別文章種類", "基於CBOW文字向量、GRU、分類網路"],
+      ["自然語言處理", "Spell Checker", "基於語料庫與字串距離偵錯, 提升OCR準確度"],
+      ["AI底層套件開發", "基於C++撰寫倒傳遞模型", "需具備線性代數基礎, 版權屬於Footprintku"]
+    ]
+  },
+  "publications": {
+    "title": "相關論文",
+    "items": [
+      "Leveraging Deep Learning and Internet of Things for Dynamic Construction Site Risk Management (2025.04)",
+      "自注意力機制及時序卷積網路應用於光學字元辨識模型設計 (2019.08)",
+      "倒傳遞類神經網路分類腦波動作指令特徵 (2017.06)"
+    ]
+  },
+  "contact": {
+    "title": "聯絡方式"
+  }
+}
