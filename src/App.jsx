@@ -56,8 +56,8 @@ function App() {
           <div className="flex justify-center">
             <div className="w-40 h-40 rounded-full border-4 border-white shadow-md overflow-hidden bg-white">
               <img 
-                src="images/headshot.png" 
-                alt="Profile" 
+                src={`${import.meta.env.BASE_URL}images/headshot.png`} 
+                alt="Ivan Chen headshot" 
                 className="w-full h-full object-cover"
               />
             </div>
