@@ -12,6 +12,8 @@ import {
   QrCode,
   CheckCircle2
 } from 'lucide-react';
+
+import headshot from '@/assets/headshot.png';
 import './i18n';
 
 function App() {
@@ -56,7 +58,7 @@ function App() {
           <div className="flex justify-center">
             <div className="w-40 h-40 rounded-full border-4 border-white shadow-md overflow-hidden bg-white">
               <img 
-                src={`${import.meta.env.BASE_URL}images/headshot.png`} 
+                src={headshot} 
                 alt="Ivan Chen headshot" 
                 className="w-full h-full object-cover"
               />
